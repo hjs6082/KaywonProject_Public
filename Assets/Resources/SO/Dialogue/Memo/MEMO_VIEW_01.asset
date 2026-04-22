@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82a9b782ebb2f0468dad6abeec56844, type: 3}
+  m_Name: MEMO_VIEW_01
+  m_EditorClassIdentifier: 
+  _dialogueId: MEMO_VIEW_01
+  _dialogueTitle: MEMO_VIEW_01
+  _description: "\uBA54\uBAA8 \uCC98\uC74C \uCF2F\uC744\uB584"
+  _nodes:
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: 
+      DialogueText: "\uB77C\uBCA8\uB9C1\uC744 \uC9C4\uD589\uD574\uBCF4\uC790"
+      VoiceClip: {fileID: 8300000, guid: cb9147bf735ec3b4da1c7d0bbecbe32b, type: 3}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  _completionFlagKey: 
+  _completionFlagValue: 1

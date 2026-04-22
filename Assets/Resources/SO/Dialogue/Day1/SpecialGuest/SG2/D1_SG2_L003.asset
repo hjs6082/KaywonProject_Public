@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82a9b782ebb2f0468dad6abeec56844, type: 3}
+  m_Name: D1_SG2_L003
+  m_EditorClassIdentifier: 
+  _dialogueId: D1_SG2_L003
+  _dialogueTitle: D1_SG2_L003
+  _description: 
+  _nodes:
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uC8FC\uC778\uACF5"
+      DialogueText: "\uD558\uC9C0\uB9CC \uC190\uB2D8\uAED8\uC11C\uB294 \uADF8\uBD84\uC5D0
+        \uB300\uD574\uC120 \uC81C\uBC95 \uC798 \uC544\uC2DC\uB294 \uAC83 \uAC19\uC2B5\uB2C8\uB2E4."
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uD2B9\uBCC4\uD55C \uC190\uB2D8 2"
+      DialogueText: "\u2026\uC0AC\uC2E4, \uC800\uB294 \uADF8\uAC00 \uC774\uC804\uC5D0
+        \uC5B4\uB5A4 \uC77C\uC744 \uD588\uB294\uC9C0 \uC54C\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uD2B9\uBCC4\uD55C \uC190\uB2D8 2"
+      DialogueText: "\uAC70\uC758 \uD655\uC2E4\uD569\uB2C8\uB2E4. \uBBFF\uC744\uB9CC\uD55C
+        \uC0AC\uB78C\uC774 \uB9D0\uD574\uC92C\uAC70\uB4E0\uC694."
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uD2B9\uBCC4\uD55C \uC190\uB2D8 2"
+      DialogueText: "\uADF8\uB7F0 \uC0AC\uB78C\uC774 \uC774\uB807\uAC8C \uB5B3\uB5B3\uD558\uAC8C,
+        \uC778\uAE30\uAC00 \uB9CE\uB2E4\uB2C8\u2026"
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uC8FC\uC778\uACF5"
+      DialogueText: "\uD655\uC2E4\uD55C \uC815\uBCF4\uC778 \uAC81\uB2C8\uAE4C?"
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uD2B9\uBCC4\uD55C \uC190\uB2D8 2"
+      DialogueText: "\uC800\uC57C \uBAA8\uB985\uB2C8\uB2E4. \uD558\uC9C0\uB9CC \uB204\uAC00
+        \uC54C\uACA0\uB098\uC694?"
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uD2B9\uBCC4\uD55C \uC190\uB2D8 2"
+      DialogueText: "\uADF8\uB7F0 \uC0AC\uC2E4\uC744 \uC228\uAE30\uB824\uACE0 \uC77C\uBD80\uB7EC
+        \uCE5C\uD55C \uCC99\u2026 \uC544, \uC544\uB2D9\uB2C8\uB2E4. \uB108\uBB34
+        \uCDE8\uD588\uB098."
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 1
+    Line:
+      LineType: 0
+      SpeakerName: "\uD2B9\uBCC4\uD55C \uC190\uB2D8 2"
+      DialogueText: "\uADF8\uB7F0 \uC0AC\uC2E4\uC744 \uC228\uAE30\uB824\uACE0 \uC77C\uBD80\uB7EC
+        \uCE5C\uD55C \uCC99\u2026 \uC544, \uC544\uB2D9\uB2C8\uB2E4. \uB108\uBB34
+        \uCDE8\uD588\uB098."
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options:
+      - ChoiceText: "\uC790\uACA9\uC9C0\uC2EC\uC774\uAD70\uC694."
+        NextDialogue: {fileID: 11400000, guid: a9340a115f202f1498c659f2d3c13ef5, type: 2}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uC9C4\uC9DC\uB77C\uBA74 \uC815\uB9D0 \uC18C\uB984\uB07C\uCE58\uB294\uAD70\uC694!"
+        NextDialogue: {fileID: 11400000, guid: acd4c02c4f0258549b3f3bb0293e725c, type: 2}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uBC94\uC8C4\uB77C\uB3C4 \uC800\uC9C0\uB978 \uAC74\uAC00\uC694?"
+        NextDialogue: {fileID: 11400000, guid: 2ec68cc6d72ca6f40adaae6fc7019f67, type: 2}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  _completionFlagKey: 
+  _completionFlagValue: 1

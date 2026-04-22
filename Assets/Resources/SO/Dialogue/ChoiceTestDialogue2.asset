@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82a9b782ebb2f0468dad6abeec56844, type: 3}
+  m_Name: ChoiceTestDialogue2
+  m_EditorClassIdentifier: 
+  _dialogueId: 76c40fac-fd5a-465b-9e9c-43ac2caf1dcb
+  _dialogueTitle: 
+  _description: 
+  _nodes:
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: 
+      DialogueText: "\uB9DE\uC558\uC5B4. \uB2E4\uC74C \uC120\uD0DD\uC9C0\uB97C \uC9C4\uD589\uD558\uC790."
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 1
+      CameraMovementDuration: 2
+    Choice:
+      ChoiceId: 
+      PromptText: "\uD14C\uC2A4\uD2B8 \uC9C8\uBB382"
+      Options:
+      - ChoiceText: "\uC815\uB2F5\uD14C\uC2A4\uD2B82"
+        NextDialogue: {fileID: 11400000, guid: 13a351a4b7c92b846bcdcbd99b9c25df, type: 2}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 1
+      - ChoiceText: "\uC624\uB2F5\uD14C\uC2A4\uD2B81"
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uC624\uB2F5\uD14C\uC2A4\uD2B82"
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uC624\uB2F5\uD14C\uC2A4\uD2B83"
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      TimeLimit: 19.6
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 11400000, guid: 9520e229ac2e92a4089f75102c886045, type: 2}
+  - NodeType: 1
+    Line:
+      LineType: 0
+      SpeakerName: 
+      DialogueText: "\uB0B4\uAC00 \uB9D0\uD588\uC9C0\uC54A\uB098?"
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 1
+      CameraMovementDuration: 2
+    Choice:
+      ChoiceId: 
+      PromptText: "\uD14C\uC2A4\uD2B8 \uC9C8\uBB382"
+      Options:
+      - ChoiceText: "\uC815\uB2F5\uD14C\uC2A4\uD2B82"
+        NextDialogue: {fileID: 11400000, guid: a64f6e3ba4f211246ae28e71750fdef8, type: 2}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 1
+      - ChoiceText: "\uC624\uB2F5\uD14C\uC2A4\uD2B81"
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uC624\uB2F5\uD14C\uC2A4\uD2B82"
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uC624\uB2F5\uD14C\uC2A4\uD2B83"
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      TimeLimit: 19.6
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 11400000, guid: 14890f135f11f3244951bbf2081412b5, type: 2}
+  _completionFlagKey: 
+  _completionFlagValue: 1

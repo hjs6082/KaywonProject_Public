@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82a9b782ebb2f0468dad6abeec56844, type: 3}
+  m_Name: ChoiceTestDialogue
+  m_EditorClassIdentifier: 
+  _dialogueId: 76c40fac-fd5a-465b-9e9c-43ac2caf1dcb
+  _dialogueTitle: 
+  _description: 
+  _nodes:
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: 
+      DialogueText: "\uC120\uD0DD\uC9C0 \uD14C\uC2A4\uD2B8\uB97C \uC9C4\uD589\uD574\uBCF4\uC790."
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 1
+      CameraMovementDuration: 2
+    Choice:
+      ChoiceId: 
+      PromptText: "\uB108\uB294 \uBB50\uB97C\uACE0\uB97C\uAC83\uC778\uAC00?"
+      Options:
+      - ChoiceText: "\uD574\uACE0\uB2F9\uD55C \uD6C4 \uADF8 \uC0AC\uB78C\uC5D0\uAC8C
+          \uBB34\uC2A8\uC77C\uC774 \uC0DD\uACBC\uC8E0?"
+        NextDialogue: {fileID: 11400000, guid: 26759285bd1e2e6408458f266eddc926, type: 2}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 1
+      - ChoiceText: "2010\uB144\uBD80\uD130 \uC2E4\uC885 \uC0C1\uD0DC\uAD70\uC694..."
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4."
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uD14C\uC2A4\uD2B82\uBC88\uC9F8\uC785\uB2C8\uB2E4."
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      TimeLimit: 19.6
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 11400000, guid: 9520e229ac2e92a4089f75102c886045, type: 2}
+  - NodeType: 1
+    Line:
+      LineType: 0
+      SpeakerName: 
+      DialogueText: "\uB0B4\uAC00 \uB9D0\uD588\uC9C0\uC54A\uB098?"
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 1
+      CameraMovementDuration: 2
+    Choice:
+      ChoiceId: 
+      PromptText: "\uB108\uB294 \uBB50\uB97C\uACE0\uB97C\uAC83\uC778\uAC00?"
+      Options:
+      - ChoiceText: "\uD574\uACE0\uB2F9\uD55C \uD6C4 \uADF8 \uC0AC\uB78C\uC5D0\uAC8C
+          \uBB34\uC2A8\uC77C\uC774 \uC0DD\uACBC\uC8E0?"
+        NextDialogue: {fileID: 11400000, guid: ae5506a0c9e684a4ca9348acc1f8a81c, type: 2}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 1
+      - ChoiceText: "2010\uB144\uBD80\uD130 \uC2E4\uC885 \uC0C1\uD0DC\uAD70\uC694..."
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uD14C\uC2A4\uD2B8\uC785\uB2C8\uB2E4."
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uD14C\uC2A4\uD2B82\uBC88\uC9F8\uC785\uB2C8\uB2E4."
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      TimeLimit: 19.6
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 11400000, guid: 14890f135f11f3244951bbf2081412b5, type: 2}
+  _completionFlagKey: 
+  _completionFlagValue: 1

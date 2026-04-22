@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82a9b782ebb2f0468dad6abeec56844, type: 3}
+  m_Name: D1_SG2_L004
+  m_EditorClassIdentifier: 
+  _dialogueId: D1_SG2_L004
+  _dialogueTitle: D1_SG2_L004
+  _description: "\uB3C5\uBC31"
+  _nodes:
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: 
+      DialogueText: "\uC774 \uC190\uB2D8\uC744 \uC2EC\uBB38\uD574\uC57C \uD560\uAE4C?"
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 1
+    Line:
+      LineType: 0
+      SpeakerName: 
+      DialogueText: "\uC774 \uC190\uB2D8\uC744 \uC2EC\uBB38\uD574\uC57C \uD560\uAE4C?"
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options:
+      - ChoiceText: "\uC2EC\uBB38\uD55C\uB2E4."
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      - ChoiceText: "\uC2EC\uBB38\uD558\uC9C0 \uC54A\uB294\uB2E4."
+        NextDialogue: {fileID: 0}
+        JumpToLineIndex: 0
+        ConditionKey: 
+        ConditionValue: 0
+        ResultFlagKey: 
+        ResultFlagValue: 0
+        IsCorrectAnswer: 0
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  _completionFlagKey: 
+  _completionFlagValue: 1

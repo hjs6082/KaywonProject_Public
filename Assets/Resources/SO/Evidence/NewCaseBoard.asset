@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8446469f1c4bc498dbdbd49657dab1, type: 3}
+  m_Name: NewCaseBoard
+  m_EditorClassIdentifier: 
+  _caseBoardID: CASE_001
+  _caseBoardTitle: "\uC0AC\uAC74\uBCF4\uB4DC1"
+  _caseBoardDescription: "\uC0AC\uAC74\uBCF4\uB4DC1"
+  _nodes:
+  - _nodeID: NODE_0277
+    _nodeTitle: "\uD749\uAE30\uB294 \uBB34\uC5C7\uC778\uAC00?"
+    _nodeDescription: "\uD749\uAE30\uB294 \uBB34\uC5C7\uC778\uAC00?"
+    _boardPosition: {x: 0.2, y: 0.7}
+    _correctEvidenceIDs:
+    - EVIDENCE_001
+    _connectedNodeIDs:
+    - NODE_7515
+  - _nodeID: NODE_7515
+    _nodeTitle: "\uB108\uB294 \uBB34\uC5BC\uD588\uB098?"
+    _nodeDescription: "\uD749\uAE30\uB294 \uBB34\uC5C7\uC778\uAC00?"
+    _boardPosition: {x: 0.5, y: 0.5}
+    _correctEvidenceIDs:
+    - EVIDENCE_002
+    _connectedNodeIDs:
+    - NODE_0277
+  _availableEvidences:
+  - {fileID: 11400000, guid: 9915a1a11419e33428be2bf512cbb82c, type: 2}
+  - {fileID: 11400000, guid: 10b3a83cc4e3efc4380b08c5ad3931af, type: 2}
+  - {fileID: 11400000, guid: 3289f1fd33f584241aabf321123d1f88, type: 2}
+  _boardBackground: {fileID: 0}

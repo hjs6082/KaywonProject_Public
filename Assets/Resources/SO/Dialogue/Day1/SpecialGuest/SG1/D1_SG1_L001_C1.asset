@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82a9b782ebb2f0468dad6abeec56844, type: 3}
+  m_Name: D1_SG1_L001_C1
+  m_EditorClassIdentifier: 
+  _dialogueId: D1_SG1_L001_C1
+  _dialogueTitle: D1_SG1_L001_C1
+  _description: 
+  _nodes:
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uC8FC\uC778\uACF5"
+      DialogueText: "\uC5BC\uB9C8 \uC804 \uC0B4\uD574\uB2F9\uD55C \uAF43\uC9D1 \uC0AC\uC7A5\uC744
+        \uC544\uC2DC\uB098\uC694?"
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uD2B9\uBCC4\uD55C \uC190\uB2D8 1"
+      DialogueText: "\u2026\uC544, \uADF8 \uC774\uC57C\uAE30\uB294 \uD558\uACE0 \uC2F6\uC9C0
+        \uC54A\uC544\uC694."
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  _completionFlagKey: 
+  _completionFlagValue: 1

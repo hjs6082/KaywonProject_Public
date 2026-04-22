@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2eac6cd1478694c9957ffba1d0dc75, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  walkSpeed: 3
+  runSpeed: 6
+  gravity: 9.8
+  jumpSpeed: 0
+  sprintToggle: 0
+  mouseSensitivity: 2
+  minVerticalAngle: -80
+  maxVerticalAngle: 80
+  smoothCamera: 0
+  cameraSmoothSpeed: 10
+  interactionRange: 3
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  interactKey: 101
+  inspectModeKey: 9
+  inspectExitKey: 27
+  inspectableLayer:
+    serializedVersion: 2
+    m_Bits: 2048
+  rotationSensitivity: 5
+  footstepSounds: []
+  footstepVolume: 0.5
+  walkFootstepInterval: 0.5
+  runFootstepInterval: 0.3
+  normalCursor: {fileID: 0}
+  grabCursor: {fileID: 0}
+  grabbingCursor: {fileID: 0}
+  inspectCursor: {fileID: 0}
+  interactCursor: {fileID: 0}

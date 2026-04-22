@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82a9b782ebb2f0468dad6abeec56844, type: 3}
+  m_Name: D1_SG1_L001_C3
+  m_EditorClassIdentifier: 
+  _dialogueId: D1_SG1_L001_C3
+  _dialogueTitle: D1_SG1_L001_C3
+  _description: 
+  _nodes:
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uC8FC\uC778\uACF5"
+      DialogueText: "\uCE5C\uAD6C \uBD84\uC758 \uC548\uBAA9\uC774 \uC88B\uC73C\uC2DC\uAD70\uC694."
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: "\uD2B9\uBCC4\uD55C \uC190\uB2D8 1"
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uD2B9\uBCC4\uD55C \uC190\uB2D8 1"
+      DialogueText: "\uB9DE\uC544\uC694. \uC774\uB7F0 \uCABD\uC5D0 \uC548\uBAA9\uC774
+        \uC788\uB358 \uCE5C\uAD6C\uC600\uC5B4\uC694."
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  - NodeType: 0
+    Line:
+      LineType: 0
+      SpeakerName: "\uD2B9\uBCC4\uD55C \uC190\uB2D81"
+      DialogueText: "\uBE44\uC2FC \uBAA9\uAC78\uC774\uB97C \uC120\uBB3C\uD574 \uC92C\uB2E4\uBA70
+        \uBFCC\uB4EF\uD574 \uD558\uB358 \uC815\uB9D0 \uC88B\uC740 \uCE5C\uAD6C\uC600\uB294\uB370,
+        \uC5B4\uCA4C\uB2E4\uAC00\u2026"
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 0
+      CameraMovementDuration: 0
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  _completionFlagKey: 
+  _completionFlagValue: 1

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82a9b782ebb2f0468dad6abeec56844, type: 3}
+  m_Name: ThinkDialogue
+  m_EditorClassIdentifier: 
+  _dialogueId: 76c40fac-fd5a-465b-9e9c-43ac2caf1dcb
+  _dialogueTitle: 
+  _description: 
+  _nodes:
+  - NodeType: 0
+    Line:
+      LineType: 0
+      Speaker: {fileID: 0}
+      SpeakerNameOverride: "\uD14C\uC2A4\uD2B8"
+      DialogueText: "\uB2E4\uC2DC \uC0DD\uAC01\uD574\uBCFC\uAE4C?"
+      VoiceClip: {fileID: 0}
+      VoiceVolume: 0
+      TextSpeed: 1
+      AutoProceed: 0
+      AutoProceedDelay: 0
+      AutoProceedAfterVoice: 0
+      CameraId: 
+      CameraMovement: 0
+      CameraMovementDistance: 1
+      CameraMovementDuration: 2
+    Choice:
+      ChoiceId: 
+      PromptText: 
+      Options: []
+      TimeLimit: 0
+      DefaultOptionIndex: 0
+      ShuffleOptions: 0
+      WrongAnswerDialogue: {fileID: 0}
+  _participants:
+  - {fileID: 11400000, guid: 01e7ae205ac897a40ac850254f10a4c2, type: 2}
+  _completionFlagKey: 
+  _completionFlagValue: 1
